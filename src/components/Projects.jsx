@@ -11,13 +11,22 @@ import git from '../components/IMAGE/git.png'
 const Projects = () => {
   return (
     <div class="container-fluid">
-    <div class="body3">
-   <h2>PROJECTS</h2> 
+    {/* <div class="body3">
+   <h2>PROJECTS</h2>  */}
    <div class="container7">
   <div class="row">
+    <div class="card12">
     <div class="col-sm">
      <h3>kerala tourism</h3>
      <a href=" https://akhiramalu.github.io/-tourism-website/"> https://akhiramalu.github.io/-tourism-website/</a>
+     </div> 
+  
+    
+   
+     <h3>kerala tourism</h3>
+     <a href=" https://akhiramalu.github.io/-tourism-website/"> https://akhiramalu.github.io/-tourism-website/</a>
+    </div>
+    </div>
     </div>
     <div class="col-sm">
     <img src={images}  class="rounded-circle" width="160"/>
@@ -35,15 +44,15 @@ const Projects = () => {
     </div>
     </div>
   </div>
-</div>
+
 
     
     
     
      
      
-     </div>
-     </div>
+    //  </div>
+    //  </div>
   )
 }
 

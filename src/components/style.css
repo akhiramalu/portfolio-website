@@ -575,7 +575,7 @@ div.fg{
  
 /* <..../////test.....///> */
 .param p{
-  padding-top:130px; 
+  padding-top:130px;  
  justify-content: center;
 color:rgb(10, 10, 89);
 font-size: 25px;
@@ -621,10 +621,24 @@ font-size: 25px;
 
 
 /* <................///////////CONTACTS............//////////> */
-/* .social-icons{
-   display: flex
+.social-icons{
+   display: flex;
+   justify-content: center;
+   background-color: #0f1417;
+
    
-} */
+} 
+.iconfacebook{
+  margin-right: 50px;
+}
+.iconlinkedin{
+  margin-left: 50px;
+
+}
+.iconinstagram{
+  margin-left: 50px;
+
+}
 
 /* .card9{
   background-color: rgb(203, 30, 30);
@@ -642,7 +656,7 @@ font-size: 25px;
 
 .card9{
   position: relative;
-  height: 500px;
+  height: 600px;
   /* width: 700px; */
 }
 
@@ -653,7 +667,7 @@ font-size: 25px;
   color: white;
   padding: 20px;
   font-size: 24px;
-  width: 600px;
+  width: 500px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   opacity: 0;
@@ -678,45 +692,65 @@ font-size: 25px;
 }
 .card10{
   width:1000px;
-  height: 622px;
+  height: 655px;
   background-color: #195796;
 }
-.password{
-  font-size: 30px;
-  color:#013d13;
-  margin-left:120px;
-}
-#password{
-  
-width:270px;
-margin-left:220px;
-margin-right:120px;
-
-}
-#email{
-  
-  width:270px;
-  margin-left:220px;
-  margin-right:120px;
-  /* position: absolute; */
-  }
 
 
-#text{
-  
-  height: 150px;
-  width:400px;
-  margin-left:120px;
-  /* position: absolute; */
-  }
-  #submit{
-    width:100px;
     
-    
-    /* position: absolute; */
+.email{
+      width: 900px;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      /* margin-left: 20px; */
+      background: #f1f1f1;
     }
-  
-  
+    .message{
+      width: 930px;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      height: 150px;
+      /* margin-left: 20px; */
+      background: #f1f1f1;
+    }
+    .mobile{
+      width: 900px;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      /* margin-left: 20px; */
+      background: #f1f1f1;
+    }
+     
+    input[type=text]:focus, input[type=password]:focus ,input[type=tel]:focus {
+      background-color: #810404;
+      outline: none;
+    } 
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 300px;
+      /* margin-right: 150px; */
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    @media screen and (max-width: 300px) {
+      .cancelbtn, .signupbtn {
+        width: 100%;
+      }
+    }
 
 
 

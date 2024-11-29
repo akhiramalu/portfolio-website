@@ -5,15 +5,16 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div class="param">
-                    <h1 style={{ marginTop: '70px' }}>testimonials</h1>
-                    <br /><br /><br/>  <br /><br /><br/>
+      <br /><br /><br/>  <br /><br /><br/>
+                    <h1 >testimonials</h1>
+                   <br /> <br /><br/>  <br /><br /><br/>
 
                    
     <div class="row">
-        <div class="col-lg-2"></div>
+        <div class="col-lg-2"></div> 
           <div class="col-lg-8">
             <div class="card3">
-                              <p style={{ marginBottom: '70px' }}><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
+                              <p ><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
                               eye for detail and a deep understanding of modern web technologies.
                               She consistently delivers high -quality ,responsive designs that enhance user 
                               experiance.Her ability to solve problems and work efficiently under tight deadlines 
@@ -24,7 +25,7 @@ const Testimonials = () => {
 
 
       <div class="card4">
-                            <p style={{ marginBottom: '70px' }}><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
+                            <p ><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
                             eye for detail and a deep understanding of modern web technologies.
                             She consistently delivers high -quality ,responsive designs that enhance user 
                             experiance.Her ability to solve problems and work efficiently under tight deadlines 
@@ -36,7 +37,7 @@ const Testimonials = () => {
 
       
       <div class="card5">
-                            <p style={{ marginBottom: '70px' }}><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
+                            <p ><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
                             eye for detail and a deep understanding of modern web technologies.
                             She consistently delivers high -quality ,responsive designs that enhance user 
                             experiance.Her ability to solve problems and work efficiently under tight deadlines 
@@ -50,7 +51,7 @@ const Testimonials = () => {
 
 
       <div class="card6">
-                            <p style={{ marginBottom: '70px' }}><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
+                            <p ><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
                             eye for detail and a deep understanding of modern web technologies.
                             She consistently delivers high -quality ,responsive designs that enhance user 
                             experiance.Her ability to solve problems and work efficiently under tight deadlines 
