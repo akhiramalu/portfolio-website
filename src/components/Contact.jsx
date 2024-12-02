@@ -51,6 +51,8 @@ const Contact = () => {
           <div class="card10" >
                         
                           <br/><br/> <br/><br/> <br/>
+                          <h1>GET IN TOUCH</h1>
+                          <br/><br/> 
                           <form action="/action_page.php" style={{border: "1 solid #ccc"}}>
                 
                           <label for="email"></label>

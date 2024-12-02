@@ -837,6 +837,11 @@ font-size: 25px;
   height: 655px;
   background-color: #195796;
 }
+.card10 h1{
+  margin-right: 600px;
+  color: #021457;
+  font-size: 50px;
+}
 
 
     
@@ -886,6 +891,7 @@ font-size: 25px;
     }
     
     button:hover {
+      background-color: blue;
       opacity:1;
     }
     @media screen and (max-width: 300px) {
