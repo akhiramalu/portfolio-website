@@ -30,7 +30,7 @@ const Contact = () => {
               
                  
     <div className="social-icons" >
-    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
       <FaFacebook size={40} class="iconfacebook" />
     </a>
     <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
